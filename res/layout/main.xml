@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/com.gyrorotate.GyroRotate"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<com.admob.android.ads.AdView
+	android:id="@+id/ad"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	 />
+<com.gyrorotate.TouchSurfaceView
+	android:id="@+id/tsv"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+/>
+
+</LinearLayout>
